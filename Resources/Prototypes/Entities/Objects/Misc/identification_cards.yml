@@ -317,6 +317,19 @@
 
 - type: entity
   parent: IDCardStandard
+  id: PoquitoIDCard
+  name: poquito ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idcook
+  - type: PresetIdCard
+    job: Chef
+    name: Poquito
+
+- type: entity
+  parent: IDCardStandard
   id: ChefIDCard
   name: chef ID card
   components:
