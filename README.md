@@ -1,5 +1,9 @@
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 
+This is a forked version of Harmony Station which i tend to use to test and add things to over time.
+I dont know if this is gonna be a good fork or even one thats looked at but hey i can try.
+Do check out Harmony server!
+
 ## Links
 
 [Harmony Wiki](http://wiki.harmony14.com/) | [Website (SS14)](https://spacestation14.io/) | [Steam (SS14)](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download (SS14)](https://spacestation14.io/about/nightlies/)
