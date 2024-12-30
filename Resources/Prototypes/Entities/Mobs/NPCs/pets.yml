@@ -829,43 +829,6 @@
       gender: male
 
 - type: entity
-  name: Poquito
-  parent: MobKobold
-  id: MobKoboldPoquito
-  description: He stares back at you from under the poorly fitting chefs hat with a prideful glee, a curly mustache drawn onto his face with what looks like mustard.
-  components:
-  - type: GhostRole
-    prob: 1
-    makeSentient: true
-    allowSpeech: true
-    allowMovement: true
-    name: ghost-role-information-poquito-name
-    description: ghost-role-information-poquito-description
-    rules: ghost-role-information-nonantagonist-rules
-  - type: GhostTakeoverAvailable
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeat
-      amount: 3
-  - type: Tag
-    tags:
-    - CannotSuicide
-    - DoorBumpOpener
-    - VimPilot
-    - AnomalyHost
-  - type: Loadout
-    prototypes: [ MobKoboldGear ]
-  - type: Grammar
-    attributes:
-      proper: true
-      gender: male
-  - type: TemperatureProtection # Kobolds are cold-blooded, so Poquito has a built in winter coat.
-    heatingCoefficient: 1.1
-    coolingCoefficient: 0.1
-
-
-- type: entity
   name: Tropico
   parent: MobCrab
   id: MobCrabAtmos

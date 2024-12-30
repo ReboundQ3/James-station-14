@@ -103,14 +103,6 @@
     jumpsuit: ClothingUniformJumpsuitJacketMonkey
     id: PunPunIDCard
 
-- type: startingGear
-  id: MobKoboldGear
-  equipment:
-    head: ClothingHeadHatChef
-    ears: ClothingHeadsetService
-    jumpsuit: ClothingUniformJumpsuitChef
-    id: PoquitoIDCard
-
 # DeathMatch Gear
 
 - type: startingGear

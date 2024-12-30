@@ -567,20 +567,6 @@
     - MobMonkeyPunpun
 
 - type: entity
-  name: Poquito Spawner
-  id: SpawnMobKoboldPoquito
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - state: kobold
-      sprite: Mobs/Animals/kobold.rsi
-  - type: ConditionalSpawner
-    prototypes:
-    - MobKoboldPoquito
-
-- type: entity
   name: behonker Spawner
   id: SpawnMobBehonker
   parent: MarkerBase
